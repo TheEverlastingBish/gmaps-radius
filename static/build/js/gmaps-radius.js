@@ -4,7 +4,7 @@
     markers = [];
     map = new google.maps.Map($('#map')[0], {
       zoom: 10,
-      center: new google.maps.LatLng(51.500358, -0.125506),
+      center: new google.maps.LatLng(37.7868196,-122.4108328),
       mapType: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
       mapTypeControl: true,
@@ -52,8 +52,8 @@
         clickable: true,
         draggable: false,
         editable: false,
-        fillColor: '#004de8',
-        fillOpacity: 0.27,
+        fillColor: '#dee8fc',
+        fillOpacity: 0.15,
         map: map,
         radius: radius,
         strokeColor: '#004de8',
